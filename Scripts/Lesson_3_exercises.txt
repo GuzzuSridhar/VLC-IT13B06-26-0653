@@ -1,0 +1,25 @@
+Use the EMPLOYEES table.
+
+1. Display the first 5 employees from the table.
+2. Display the first 10 employees, showing only employee_id, first_name, last_name, and salary.
+3. Display 5 employees whose salaries are greater than 8,000.
+4. Display the first 3 employees who work in department 50.
+5. Display each employee's salary and a calculated annual salary, assuming the salary column represents monthly salary.
+6. Calculate an adjusted salary by adding a 10% bonus and then deducting 5% from the resulting amount. Use parentheses to make the intended calculation clear.
+7. Predict the result of each expression before executing it:
+8. Display employees sorted by salary from lowest to highest.
+9. Display the employees sorted by salary from highest to lowest. If two employees have the same salary, sort them by last_name alphabetically.
+10. Display employees sorted by department_id ascending and salary descending within each department. Place employees with a NULL salary last.
+11. Display the 5 highest-paid employees.
+12. Display the 5 highest-paid employees, including everyone tied with the fifth employee's salary.
+13. Display the third, fourth, and fifth highest-paid employees using OFFSET and FETCH NEXT.
+14. Display the top 2 salary levels using WITH TIES. Compare the output with ONLY.
+15. Write a query that asks the user to enter a department ID and displays employees belonging to that department.
+16. Write a query that asks for a minimum salary and displays employees earning more than that amount.
+17. Use substitution variables to let the user enter a first name and last name, then display matching employees.
+18. Use a substitution variable to request a column name for sorting employees. Allow the user to enter salary or last_name.
+19. Define a variable called min_salary with a value of 5000. Use it in a query to display employees earning more than that amount.
+20. Use && to reuse a substitution variable in two places in the same SQL statement. Observe how it differs from &.
+
+
+

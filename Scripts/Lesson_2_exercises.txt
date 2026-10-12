@@ -1,0 +1,17 @@
+Using the HR schema
+
+1. Display the employee ID, first name, last name, and salary of all employees.
+2. Display the first name, salary, and department ID of all employees.
+3. Display each employee's first name, salary, and annual salary, assuming salary is monthly.
+4. Display each employee's salary increased by 500 as a proposed revised salary.
+5. Write a SELECT statement that evaluates 100 + 50 * 2 and another that evaluates (100 + 50) * 2. Explain the difference.
+6. Using employees, display employee_id, salary, and commission_pct. Explain what happens when you calculate salary + salary commission_pct for an employee whose commission is NULL.
+7. Display first_name as Employee First Name and salary as Monthly Salary.
+8. Display each employee's full name in one column using the concatenation operator (||), with a space between the first and last names.
+9. Display output such as "Alex earns 8000 per month"  combining a name, a numeric value, and literal character strings. Give the resulting column a meaningful alias.
+10. Display all distinct department IDs represented in the employees table.
+11. Display each employee's name alongside the literal text works at the company.
+12. Use Oracle's alternative quoting operator (q'[...]') to display the text The employee's salary is confidential. Explain why alternative quoting can be useful.
+13. Execute DESC employees or DESCRIBE employees. Identify the column names, data types, and whether each column allows NULL.
+14. Execute DESC departments, then write a query displaying each department's ID, name, and location ID.
+
