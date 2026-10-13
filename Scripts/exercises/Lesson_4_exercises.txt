@@ -1,0 +1,47 @@
+1 Change the case of employee names
+Display each employee's first name in uppercase, last name in lowercase, and full name in proper case.
+
+2 Find the length of names
+Display the employee's first name, last name, and the number of characters in each name.
+
+3 Extract part of a name
+Display the first three characters of every employee's first name.
+
+4 Locate a character
+Find the position of the letter a in each employee's first name. Display only employees whose names contain that letter.
+
+5 Pad employee IDs
+Display each employee ID as a six-character string, padding the left side with zeros.
+
+6 Replace characters
+Display each employee's phone number after replacing every period (.) with a hyphen (-).
+
+Round salaries
+Display each employee's salary rounded to the nearest thousand.
+
+
+
+8 Compare ROUND and TRUNC
+Display each employee's salary divided by 1000, showing one column rounded to two decimal places and another truncated to two decimal places.
+
+9 Calculate the remainder
+Display the remainder when each employee's salary is divided by 1000.
+
+10 Calculate salary differences
+For employees earning less than 5000, display the absolute difference between their salary and 5000.
+
+Display the current date
+Display the current database date using SYSDATE.
+
+12 Calculate future dates
+Display each employee's hire date and the date six months after joining.
+
+13 Calculate completed months of service
+Display each employee's name and the number of months between their hire date and the current date. Round the result to the nearest whole month.
+
+14 Find the last day of the joining month
+Display each employee's hire date and the last calendar day of that month.
+
+15 Find the next Friday
+Display each employee's hire date and the next Friday after that date.
+
