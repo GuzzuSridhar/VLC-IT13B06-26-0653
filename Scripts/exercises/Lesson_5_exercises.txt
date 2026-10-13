@@ -1,0 +1,44 @@
+1. Format hire dates
+Display employee names and hire dates in the format DD-MON-YYYY.
+
+2. Format salaries
+Display salaries with a currency symbol and thousands separators using TO_CHAR.
+
+3. Convert text into a date
+Convert the string '25-DEC-2026' into an Oracle DATE value and display it in the format DD-MON-YYYY.
+
+4. Convert text into a number
+Convert the string '12500.75' into a number and calculate 10% of that amount.
+
+5. Handle missing commissions
+Display employee names, salaries, commissions, and commission values where NULL commissions are replaced with zero.
+
+6. Identify commission status
+Display each employee's name and the text Has Commission or No Commission depending on whether COMMISSION_PCT is null.
+
+7. Avoid division by zero
+Use NULLIF to prevent a division-by-zero error when dividing an employee's salary by a value that might be zero. Test it with a literal denominator of zero.
+
+8. Replace multiple possible null values
+Use COALESCE to display the first available value from COMMISSION_PCT, MANAGER_ID, and a fallback value of 0. Observe which value is selected first.
+
+9. Categorize job IDs
+Use DECODE to display a descriptive label for selected JOB_ID values, such as IT_PROG, SA_REP, and ST_CLERK, and display Other Job for the remaining jobs.
+
+Generate employee login IDs
+Create a display-only login ID using the first two characters of FIRST_NAME, the first three characters of LAST_NAME, and the employee ID padded with zeros to six digits. Convert the name characters to lowercase.
+
+10. Create a formatted employee report
+Display the employee's full name in proper case, salary formatted with thousands separators, and hire date in DD-MON-YYYY format.
+
+11. Calculate annual compensation
+Display employee names, annual salary (SALARY * 12), and annual compensation including commission. Treat null commissions as zero.
+
+12. Extract the hire year
+Display employees hired in the year 2005, showing the employee name and the hire year extracted using TO_CHAR. Use a date range in the WHERE clause instead of applying TO_CHAR to the hire date there.
+
+13. Create a salary display label
+Display each employee's name and a salary label such as Salary: 12,500. Use TO_CHAR and concatenation.
+
+14. Combine date and character functions
+Display each employee's name in uppercase, their hire month in three-letter uppercase format, and the last day of their hire month.
