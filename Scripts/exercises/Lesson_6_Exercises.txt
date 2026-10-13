@@ -1,0 +1,35 @@
+1. Find the total number of employees in the EMPLOYEES table.
+2. Find the average salary of all employees.
+3. Find the highest salary in the organization.
+4. Find the lowest salary in the organization.
+5. Calculate the total salary paid to all employees.
+6. Count the number of employees who receive a commission.
+7. Find the average commission percentage of employees.
+8. Find the total number of employees working in department 50.
+9. Find the highest salary in department 80.
+10. Find the lowest salary in department 60.
+11. Calculate the total salary paid to employees in department 90.
+12. Find the average salary of employees working as IT_PROG.
+13. Count the number of employees working in each department.
+14. Display the average salary for each department.
+15. Find the maximum salary for each job role.
+16. Find the minimum salary for each job role.
+17. Calculate the total salary paid for each job role.
+18. Display the number of employees for each job role.
+19. Find the average salary for each department, excluding employees whose salary is below 5,000.
+20. Display departments having more than five employees.
+21. Find departments where the average salary is greater than 8,000.
+22. Find job roles where the maximum salary exceeds 10,000.
+23. Display departments where the total salary exceeds 50,000.
+24. Find the number of employees who joined the organization after January 1, 2005.
+25. Find the average salary of employees who receive a commission.
+26. Count the number of employees who do not receive a commission.
+27. Compare the total number of employees with the number of employees who have a non-null commission percentage.
+28. Find the difference between the highest and lowest salaries in the organization.
+29. Find the average salary of employees in each department, sorted from highest to lowest average salary.
+30. Display the department ID, employee count, minimum salary, maximum salary, and average salary for each department.
+31. Find the number of distinct job roles in the EMPLOYEES table.
+32. Find the number of distinct departments represented in the EMPLOYEES table.
+33. Calculate the average salary for each manager.
+34. Find managers who supervise more than five employees.
+35. Display the total salary, average salary, and employee count for each department, considering only employees earning more than 3,000.
