@@ -1,0 +1,11 @@
+Using the Oracle HR schema, write SQL queries to answer the following questions.
+1. Display the employee name and their department name.
+2. Display the employee name, job title, and salary of each employee.
+3. Display the employee name and the city where their department is located.
+4. Display all employees, including those who are not assigned to any department, along with their department names.
+5. Display all departments, including those that have no employees, along with the employee names.
+6. Display each employee's name along with their manager's name.
+7. Display the employee name, department name, and country name where the department is located.
+8. Display employees who work in the same department as employee 'Steven King'.
+9. Display pairs of employees who work in the same department, excluding employees paired with themselves.
+10. Display the employee name, job title, department name, and department location for employees whose salary is greater than 10,000.
