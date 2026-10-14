@@ -1,0 +1,53 @@
+## Oracle SQL Subquery Exercises
+
+Use the Oracle HR schema (EMPLOYEES, DEPARTMENTS, JOBS, and LOCATIONS tables) to solve the following exercises. Write SQL queries only.
+
+### 1. Subquery: Types, Syntax, and Guidelines
+
+1. Display the employees who earn more than the average salary of all employees.
+2. Display the employee details of the person who earns the highest salary.
+3. Find the employee who earns the second-highest salary using a subquery.
+4. Display employees who work in the same department as the employee named 'Abel'.
+5. Display the names of employees who earn more than the employee 'Taylor'.
+6. Find the department name in which the employee 'King' works.
+7. Display employees whose salary is greater than the average salary of employees in department 50.
+
+### 2. Single-Row Subqueries
+
+8. Display employees whose salary is greater than the salary of employee 'Lex De Haan'.
+9. Find employees who earn the same salary as employee 'Karen Colmenares'.
+10. Display employees who joined the company before the employee 'Steven King'.
+11. Find employees who work in the same department as employee 'Neena Kochhar'.
+12. Display the employee details of the person who earns the minimum salary.
+13. Find employees whose commission percentage is equal to the commission percentage of employee 'John Russell'.
+14. Display employees whose salary is greater than the salary of employee 'David Austin'.
+
+### 3. Multiple-Row Subqueries
+
+15. Display employees who work in departments located in the United States.
+16. Find employees whose department IDs match the department IDs of employees working under manager ID 100.
+17. Display employees whose salaries match any salary earned by employees in department 60.
+18. Find employees who earn more than any employee working in department 50.
+19. Find employees who earn more than all employees working in department 50.
+20. Display employees who work in departments that have at least one employee earning more than 10,000.
+21. Find employees who do not work in any department where employee salaries exceed 15,000.
+22. Display department names that contain employees earning more than the overall average salary.
+
+### 4. Multiple-Column Subqueries
+
+23. Display employees whose (department_id, salary) combination matches that of an employee working in department 50.
+24. Find employees whose (manager_id, department_id) combination matches that of employee ID 103.
+25. Display employees whose (job_id, salary) combination matches that of an employee in department 60.
+26. Find employees whose (department_id, job_id) combination matches the combination of employee ID 100.
+27. Display employees whose department and salary match the department and salary of any employee reporting to manager ID 100.
+28. Find employees whose (job_id, department_id) combination matches that of employees earning more than 12,000.
+
+### 5. NULL Values in a Subquery
+
+29. Display employees who do not appear in the list of employees reporting to manager ID 100, using NOT IN.
+30. Write a query to demonstrate how a NULL value returned by a subquery affects the result of NOT IN.
+31. Display employees whose employee IDs are not present in a subquery result that includes a NULL value.
+32. Rewrite a NOT IN query using NOT EXISTS and compare the results when the subquery can return NULL.
+33. Find employees who have no colleagues in their department, using a correlated subquery.
+34. Display departments that have no employees using NOT EXISTS.
+35. Write a query to identify employees who have no manager and explain how NULL affects the comparison.
