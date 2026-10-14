@@ -1,0 +1,58 @@
+## Oracle SQL Set Operators — Exercises
+
+Use the Oracle HR schema and write SQL queries for the following exercises. Focus on UNION, UNION ALL, INTERSECT, and MINUS.
+
+### 1. Set Operators: Types and Guidelines
+
+1. Write a query to display the employee IDs of employees who work in department 50 or department 60 using a set operator.
+2. Display a list of employee IDs from two queries and eliminate duplicate values.
+3. Write a query using a set operator to combine employee names and department names into a single result.
+4. Identify the rules that must be followed for the number and data types of columns in the SELECT statements used in a set operation.
+
+### 2. Tables Used in This Lesson
+
+5. Display employee IDs and job IDs from the EMPLOYEES table for employees earning more than 10,000.
+6. Display department IDs and department names from the DEPARTMENTS table for departments located in location ID 1700.
+7. Write two separate queries using the EMPLOYEES table to retrieve employees hired before and after January 1, 2005.
+
+### 3. UNION and UNION ALL Operators
+
+8. Display the employee IDs of employees working in departments 50 and 60 using UNION.
+9. Rewrite Exercise 8 using UNION ALL. Compare the results.
+10. Display employees who earn less than 5,000 or more than 15,000 using UNION.
+11. Combine the employee IDs of employees reporting to manager 100 and manager 101 using UNION ALL.
+12. Display the job IDs of employees working in departments 50 and 80, eliminating duplicate job IDs.
+13. Combine the department IDs of employees earning more than 10,000 and employees receiving commission using UNION ALL.
+
+### 4. INTERSECT Operator
+
+14. Display employee IDs of employees who work in department 50 and earn more than 5,000.
+15. Find employees who report to manager 100 and earn more than 5,000 using INTERSECT.
+16. Display job IDs common to employees working in departments 50 and 80.
+17. Find department IDs common to employees hired before January 1, 2005, and employees earning more than 10,000.
+18. Find employees who satisfy both conditions: salary greater than 8,000 and commission percentage greater than zero.
+
+### 5. MINUS Operator
+
+19. Display employee IDs of employees who work in department 50 but not in department 60.
+20. Find employees who report to manager 100 but do not earn more than 5,000.
+21. Display job IDs found among employees in department 50 but not among employees in department 80.
+22. Find department IDs that exist in the DEPARTMENTS table but are not assigned to any employee.
+23. Display employees hired before January 1, 2005, excluding employees earning more than 10,000.
+
+### 6. Matching SELECT Statements
+
+24. Write a set operation combining employee IDs and salaries from two queries. Ensure both queries return the same number of columns with compatible data types.
+25. Write a query combining employee names and job IDs from two SELECT statements. Correct any datatype mismatch.
+26. Attempt to combine queries returning different numbers of columns. Observe the error and correct the query.
+27. Combine employee IDs from two queries where the columns appear in different positions. Correct the column order to produce meaningful results.
+28. Combine numeric department IDs from one query with character department IDs from another. Investigate the datatype compatibility requirement and correct the query.
+
+### 7. Using ORDER BY in Set Operations
+
+29. Display employee IDs from departments 50 and 60 using UNION, sorted by employee ID in ascending order.
+30. Combine employee IDs from departments 50 and 80 using UNION ALL and sort the final result by employee ID in descending order.
+31. Display job IDs common to departments 50 and 80 using INTERSECT, sorted alphabetically.
+32. Display department IDs present in the DEPARTMENTS table but absent from the EMPLOYEES table using MINUS, sorted in ascending order.
+33. Combine employees earning less than 5,000 and employees earning more than 15,000 using UNION. Sort the final result by salary in descending order.
+34. Write a query using multiple set operators and an ORDER BY clause to combine, intersect, or exclude employee IDs. Observe how the set operators are evaluated and use parentheses where necessary to make the intended logic clear.
