@@ -1,0 +1,142 @@
+# Oracle SQL Exercises – Traditional SCOTT Schema
+
+These exercises use the traditional Oracle `SCOTT` schema tables: `EMP` and `DEPT`. They are arranged from beginner to advanced and cover `SELECT`, `WHERE`, sorting, functions, joins, subqueries, and set operators.
+
+## Section 1: Basic SELECT Statements
+
+1. Display all records from the `EMP` table.
+2. Display only employee name, job, and salary.
+3. Display all department records from the `DEPT` table.
+4. Display employee names and their hire dates.
+5. Display employee names and salaries, sorted by salary in ascending order.
+6. Display employee names and salaries, sorted by salary in descending order.
+7. Display distinct job titles from the `EMP` table.
+8. Display employee names and annual salaries.
+9. Display employee names and commission values.
+10. Display employee names and their employee numbers.
+
+## Section 2: WHERE Clause and Operators
+
+1. Display employees whose salary is greater than 2000.
+2. Display employees earning less than 1500.
+3. Display employees whose salary is between 1000 and 3000.
+4. Display employees working as `MANAGER`.
+5. Display employees who work as either `CLERK` or `ANALYST`.
+6. Display employees who do not work as `SALESMAN`.
+7. Display employees who belong to department 10.
+8. Display employees whose commission is NULL.
+9. Display employees whose commission is NOT NULL.
+10. Display employees whose names begin with the letter `S`.
+11. Display employees whose names end with `N`.
+12. Display employees whose names contain the letter `A`.
+13. Display employees whose salary is not equal to 3000.
+14. Display employees who earn more than 1500 and belong to department 10.
+15. Display employees who earn more than 2500 or work as `SALESMAN`.
+
+## Section 3: Sorting and Filtering
+
+1. Display employees ordered by department number and salary.
+2. Display employees ordered by hire date, from earliest to latest.
+3. Display employees ordered alphabetically by name.
+4. Display employees ordered by job in ascending order and salary in descending order.
+5. Display the top 5 highest-paid employees using `ROWNUM`.
+6. Display the employee with the lowest salary using a subquery.
+7. Display employees hired before 1982.
+8. Display employees hired during the year 1981.
+9. Display employees whose salary is between 1000 and 2500, sorted by salary descending.
+10. Display the first 3 employees from the result ordered by hire date.
+
+## Section 4: Single-Row Functions
+
+1. Display employee names in uppercase.
+2. Display employee names in lowercase.
+3. Display employee names with the first letter capitalized.
+4. Display each employee's name and the number of characters in the name.
+5. Display the first three characters of every employee name.
+6. Display employee names and salaries rounded to the nearest hundred.
+7. Display employee names and their annual salaries using `ROUND`.
+8. Display employee hire dates in the format `DD-MON-YYYY`.
+9. Display employee names and their salaries after adding a 10% increase.
+10. Display employee names and the number of months they have worked, using `MONTHS_BETWEEN`.
+11. Display employee names and the last day of their hire month.
+12. Display employee names and their salaries padded with leading zeros to a width of 6 characters.
+13. Display employee names and salaries formatted using `TO_CHAR`.
+14. Display employee names and commission values, replacing NULL commissions with zero using `NVL`.
+15. Display employee names and salary grades using a `CASE` expression: below 1000, 1000–2000, and above 2000.
+
+## Section 5: Aggregate Functions and GROUP BY
+
+1. Find the total number of employees.
+2. Find the maximum salary in the company.
+3. Find the minimum salary in the company.
+4. Calculate the average salary of all employees.
+5. Calculate the total salary paid to all employees.
+6. Count the number of employees in each department.
+7. Find the average salary for each job.
+8. Find the maximum salary in each department.
+9. Find the total salary paid for each job.
+10. Display departments having more than 3 employees.
+11. Display jobs whose average salary is greater than 2000.
+12. Find the difference between the highest and lowest salaries.
+13. Count how many employees receive commission.
+14. Find the average commission of employees who receive commission.
+15. Display departments where the total salary exceeds 5000.
+
+## Section 6: Joins Between EMP and DEPT
+
+1. Display employee names and their department names.
+2. Display employee names, job titles, and department locations.
+3. Display employees working in the `DALLAS` location.
+4. Display employees working in the `NEW YORK` location.
+5. Display employee names and department names, sorted by department name.
+6. Display employees earning more than 2000 along with their department names.
+7. Display each department name and the employees working in it.
+8. Display all departments, including departments with no employees.
+9. Display employee names and their managers' names using a self-join.
+10. Display employees whose managers work in department 10.
+11. Display employees who work in the same department as `SMITH`.
+12. Display department names and the total number of employees in each department, including departments with zero employees.
+
+## Section 7: Subqueries
+
+1. Display employees earning more than the average salary.
+2. Display the employee earning the highest salary.
+3. Display employees earning less than the average salary.
+4. Display employees who earn more than `JONES`.
+5. Display employees working in the same department as `KING`.
+6. Display employees who have the same job as `SMITH`.
+7. Display the second-highest salary.
+8. Display employees earning the second-highest salary.
+9. Display employees earning more than every employee in department 30.
+10. Display employees earning more than at least one employee in department 30.
+11. Display departments that have at least one employee.
+12. Display departments that have no employees.
+13. Display employees earning more than their department's average salary.
+14. Display employees whose salary is greater than the average salary of their job.
+15. Display employees who earn the highest salary in their respective departments.
+
+## Section 8: Set Operators
+
+1. Display the job titles found in department 10 or department 20 using `UNION`.
+2. Display job titles common to departments 10 and 20 using `INTERSECT`.
+3. Display job titles in department 10 but not in department 20 using `MINUS`.
+4. Combine employee names and department names into a single result using `UNION ALL`, ensuring compatible column types.
+5. Display employee numbers who are managers or who work in department 10, using `UNION`.
+6. Display employee numbers who are managers and work in department 10, using `INTERSECT`.
+
+## Section 9: Advanced SELECT Challenges
+
+1. Display each employee's name, salary, and salary rank using `RANK`.
+2. Display each employee's name and dense salary rank using `DENSE_RANK`.
+3. Display employees earning more than their manager.
+4. Display each department's highest-paid employee.
+5. Display the top 3 highest-paid employees in each department.
+6. Display employees hired before their managers.
+7. Display employees who earn more than the average salary of the entire company but work in department 30.
+8. Display each employee's salary as a percentage of the total salary expenditure.
+9. Display department-wise employee counts and the overall employee count in one result.
+10. Display employee names, salaries, and a running total of salaries ordered by employee number.
+
+Suggested practice order: Sections 1–3 first, then functions and aggregation, followed by joins, subqueries, set operators, and advanced queries.
+
+Use the standard SCOTT sample data, where `EMP` contains employee information and `DEPT` contains department information. These exercises require only `SELECT` statements; no table creation or data modification is necessary.
